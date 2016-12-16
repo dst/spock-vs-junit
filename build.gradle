@@ -23,7 +23,6 @@ repositories {
 dependencies {
     compile "com.google.guava:guava:19.0"
     compile "org.apache.commons:commons-collections4:4.1"
-    compile "org.projectlombok:lombok:1.14.0"
 
     testCompile "junit:junit:4.11"
     testCompile "org.assertj:assertj-core:1.6.1"
