@@ -1,4 +1,4 @@
-package com.stefanski.basic
+package com.stefanski
 
 import groovy.transform.ToString
 import spock.lang.Specification

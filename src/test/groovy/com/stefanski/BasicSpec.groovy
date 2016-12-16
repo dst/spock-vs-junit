@@ -1,4 +1,4 @@
-package com.stefanski.basic
+package com.stefanski
 
 import spock.lang.Specification
 
