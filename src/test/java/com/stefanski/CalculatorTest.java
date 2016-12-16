@@ -14,11 +14,12 @@ import static org.assertj.core.api.Assertions.*;
 public class CalculatorTest {
 
     @Test
-    // sum__both_positive_numbers
+    // TODO: change name
     public void shouldSumBothPositiveNumbers() {
         Calculator calculator = new Calculator();
         int sum = calculator.sum(1, 2);
         assertTrue(2 == sum);
+        // TODO: assertEquals, assertThat
 //        assertEquals(2, sum);
 //        assertThat(sum, is(2));
     }
