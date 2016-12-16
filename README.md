@@ -16,3 +16,8 @@ Spock demo.
 - Add IDE dependency:
     - IDEA: ./gradlew idea
     - Eclipse: ./gradlew eclipse
+
+## Plan
+ * Simple spec
+ * Method names
+ * assertTrue, assertEquals, assertThat, message, ==
