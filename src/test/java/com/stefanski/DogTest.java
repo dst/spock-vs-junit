@@ -25,7 +25,7 @@ public class DogTest {
         System.setProperty(FORCE_DOG_TO_BE_CAT, "true");
 
         // expect:
-        assertThat(dog.giveSound(), is(CAT_SOUND));
+        assertThat(dog.bark(), is(CAT_SOUND));
 
         // cleanup:
         System.clearProperty(FORCE_DOG_TO_BE_CAT);
@@ -34,6 +34,6 @@ public class DogTest {
     @Test
     public void dogShouldBeDog() {
         // expect:
-        assertThat(dog.giveSound(), is(DOG_SOUND));
+        assertThat(dog.bark(), is(DOG_SOUND));
     }
 }

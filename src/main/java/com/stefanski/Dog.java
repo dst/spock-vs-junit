@@ -10,7 +10,7 @@ class Dog {
     static final String DOG_SOUND = "Woof!";
     static final String CAT_SOUND = "Meow!";
 
-    String giveSound() {
+    String bark() {
         if (System.getProperty(FORCE_DOG_TO_BE_CAT) == null) {
             return DOG_SOUND;
         } else {

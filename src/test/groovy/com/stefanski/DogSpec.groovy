@@ -18,12 +18,12 @@ class DogSpec extends Specification {
         given:
             new Magician().abracadabra()
         expect:
-            animal.giveSound() == "Meow!"
+            animal.bark() == "Meow!"
     }
 
     def 'A dog should be a dog'() {
         expect:
-            animal.giveSound() == "Woof!"
+            animal.bark() == "Woof!"
     }
 
     class Magician {
