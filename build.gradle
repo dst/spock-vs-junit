@@ -21,7 +21,8 @@ repositories {
 }
 
 dependencies {
-    // Other libs:
+    compile "com.google.guava:guava:19.0"
+    compile "org.apache.commons:commons-collections4:4.1"
     compile "org.projectlombok:lombok:1.14.0"
 
     testCompile "junit:junit:4.11"
